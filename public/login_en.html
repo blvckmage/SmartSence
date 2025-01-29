@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+       body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../statik/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+        .login-container {
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Heading styling */
+        .login-container h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            color: black;
+        }
+
+        form {
+            background-color: #0099cc;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ddd;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px 20px;
+            background-color: lightgray;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .logo {
+    display: block;
+    margin: 0 auto 20px; /* Centers the logo and adds spacing below */
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+        button:hover {
+            background-color: grey;
+        }
+
+        @media (max-width: 480px) {
+            form {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            button {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+    <img src="../statik/images/logo.png" alt="Logo" class="logo">
+    <form action="/login" method="POST">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('error') === '1') {
+            alert('Invalid credentials. Please try again.');
+        }
+    </script>
+</body>
+</html>

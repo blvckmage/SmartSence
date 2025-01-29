@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    align-items: flex-end; /* Ensures image aligns at the bottom */
+    justify-content: center; /* Centers the image horizontally */
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/* Стили для кнопок с вариантами ответа */
+.dialogue-option-button {
+    background-color: transparent; /* Убираем белый фон */
+    color: white; /* Цвет текста */
+    border: 2px solid blue; /* Задаем зеленую границу */
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dialogue-option-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.dialogue-option-button:focus {
+    outline: none; /* Убираем обрамление при фокусе */
+}
+
+
+
+/* Фон */
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    transition: background-image 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.npc-dialogue-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 2;
+    max-width: 90vw;
+    padding: 10px;
+    margin-top: 450px;
+}
+
+/* NPC персонаж */
+.npc-image {
+    width: auto;
+    height: 620px;
+    margin-bottom: 5px; /* Optional spacing from bottom */
+}
+
+.dialogue-box {
+    position: relative;
+    top: -430px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60vw;
+    max-width: 300px;
+
+}
+
+/* Кнопка */
+#nextButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextButton:hover {
+    background-color: dodgerblue;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 480px) {
+    .npc-image {
+        width: 40vw;
+        max-width: 200px;
+        margin-left: -20px;
+        margin-top: 137px;
+    }
+
+    .dialogue-box {
+        width: 85vw;
+        max-width: 150px;
+    }
+
+    #nextButton {
+        width: 100%;
+        padding: 8px 15px;
+    }
+}
