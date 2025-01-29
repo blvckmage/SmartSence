@@ -39,10 +39,10 @@ app.post('/login', async (req, res) => {
             return res.redirect('/dashboard');
         }
 
-        res.redirect('/login.html?error=1');
+        res.redirect('/login_ru.html?error=1');
     } catch (err) {
         console.error('Error during login:', err);
-        res.redirect('/login.html?error=1');
+        res.redirect('/login_ru.html?error=1');
     }
 });
 
