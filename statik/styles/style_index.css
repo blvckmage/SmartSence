@@ -166,12 +166,13 @@ h1 {
 /* Адаптация для мобильных телефонов */
 @media (max-width: 480px) {
     .login-button {
-        padding: 1px 1px;
+        padding: 2px 10px;
         font-size: 14px;
         border-radius: 2px;
-        /*width: 100%; /* На маленьких экранах кнопка занимает всю ширину */
-        /*max-width: 100px; /* Но не более 200px */
+        width: 100%; /* На маленьких экранах кнопка занимает всю ширину */
+        max-width: 100px; /* Но не более 200px */
         margin: 8px auto; /* Центрирование */
+        line-height: 1.3;
     }
 }
 
