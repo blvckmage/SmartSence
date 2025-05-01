@@ -1,18 +1,18 @@
 // CВЕТОДИОД
 const Led = [
 
-    { text: "<b>Имя:</b> Лиза", background: "url('statik/images/led_park1.jpg')" },
-    { text: "<b>Профессия:</b> Дежурный техник", background: "url('statik/images/led_park1.jpg')" },
-    { text: "Лиза отвечает за ночное освещение в парке, но недавно на главной аллее перестали работать фонари.", background: "url('statik/images/led_park1.jpg')" },
-    { text: "<b>Лиза:</b> Привет, студент! Я Лиза, техник этого парка.", background: "url('statik/images/led_park3.jpg')" },
-    { text: "<b>Лиза:</b> У нас возникла проблема:", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Лиза:</b> Некоторые фонари на главной аллее не горят, и часть парка остается в темноте.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Лиза:</b> Людям некомфортно прогуливаться здесь ночью.", background: "url('statik/images/led_park4.jpg')" },
-    { text: "<b>Лиза:</b> Мне нужно, чтобы ты помог включить свет, используя светодиод для симуляции уличного освещения.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Лиза:</b> Подключи его и настрой, чтобы он загорался автоматически, когда стемнеет.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Задача для студента:</b>", background: "url('statik/images/led_park2.jpg')" },
-    { text: "Создать схему с использованием светодиода, который будет активироваться при наступлении темноты, имитируя работу уличного фонаря.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "Желаю успехов с выполнением задания.", background: "url('statik/images/led_park2.jpg')" },
+    { text: "<b>Имя:</b> Лиза", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Профессия:</b> Дежурный техник", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "Лиза отвечает за ночное освещение в парке, но недавно на главной аллее перестали работать фонари.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Лиза:</b> Привет, студент! Я Лиза, техник этого парка.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Лиза:</b> У нас возникла проблема:", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Лиза:</b> Некоторые фонари на главной аллее не горят, и часть парка остается в темноте.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Лиза:</b> Людям некомфортно прогуливаться здесь ночью.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Лиза:</b> Мне нужно, чтобы ты помог включить свет, используя светодиод для симуляции уличного освещения.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Лиза:</b> Подключи его и настрой, чтобы он загорался автоматически, когда стемнеет.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Задача для студента:</b>", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "Создать схему с использованием светодиода, который будет активироваться при наступлении темноты, имитируя работу уличного фонаря.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "Желаю успехов с выполнением задания.", background: "url('statik/images/svetodiod.jpeg')" },
 
 ];
 
@@ -200,14 +200,14 @@ const RFID552 = [
 //СЕРВО МОТОР
 const SERVO = [
 
-    { text: "<b>Имя:</b> Нина", background: "url('statik/images/servo_back.jpg')" },
-    { text: "<b>Профессия:</b> Сотрудник почтового отделения", background: "url('statik/images/servo_back.jpg')" },
-    { text: "Нина хочет автоматизировать подъем флагов на стойке в почтовом отделении.", background: "url('statik/images/servo_back.jpg')" },
-    { text: "<b>Нина:</b> Привет! Я Нина, и я работаю в почтовом отделении. ", background: "url('statik/images/servo_back.jpg')" },
-    { text: "<b>Нина:</b> Мы хотим сделать автоматический подъем флага, чтобы он поднимался на определенное расстояние.", background: "url('statik/images/servo_back.jpg')" },
-    { text: "<b>Нина:</b> Можешь помочь настроить серводвигатель для этого?", background: "url('statik/images/servo_back.jpg')" },
-    { text: "<b>Задача для студента:</b>", background: "url('statik/images/servo_back.jpg')" },
-    { text: "Настроить серводвигатель, чтобы он перемещался в заданные положения, имитируя подъем флага.", background: "url('statik/images/servo_back.jpg')" },
+    { text: "<b>Имя:</b> Нина", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Профессия:</b> Сотрудник почтового отделения", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "Нина хочет автоматизировать подъем флагов на стойке в почтовом отделении.", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Нина:</b> Привет! Я Нина, и я работаю в почтовом отделении. ", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Нина:</b> Мы хотим сделать автоматический подъем флага, чтобы он поднимался на определенное расстояние.", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Нина:</b> Можешь помочь настроить серводвигатель для этого?", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Задача для студента:</b>", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "Настроить серводвигатель, чтобы он перемещался в заданные положения, имитируя подъем флага.", background: "url('statik/images/servodvig.jpeg')" },
 
 ];
 
@@ -257,14 +257,14 @@ const TOCHBUTTON = [
 //ТРАНЗИСТОР
 const TRANSISTOR = [
 
-    { text: "<b>Имя:</b> Егор", background: "url('statik/images/trans_back.jpg')" },
-    { text: "<b>Профессия:</b> Инженер-электронщик", background: "url('statik/images/trans_back.jpg')" },
-    { text: "Егору нужна помощь в усилении сигнала для работы с мотором.", background: "url('statik/images/trans_back.jpg')" },
-    { text: "<b>Егор:</b> Привет, студент! Меня зовут Егор, я инженер-электронщик.", background: "url('statik/images/trans_back.jpg')" },
-    { text: "<b>Егор:</b> Нам нужно усилить сигнал для работы с мощным мотором, чтобы он мог двигаться быстрее.", background: "url('statik/images/trans_back.jpg')" },
-    { text: "<b>Егор:</b> Можешь использовать транзистор как усилитель и протестировать его на маленьком моторе?", background: "url('statik/images/trans_back.jpg')" },
-    { text: "<b>Задача для студента:</b>", background: "url('statik/images/trans_back.jpg')" },
-    { text: "Использовать транзистор для управления небольшим мотором, симулируя усиление сигнала.", background: "url('statik/images/trans_back.jpg')" },
+    { text: "<b>Имя:</b> Егор", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Профессия:</b> Инженер-электронщик", background: "url('statik/images/transistor.jpeg')" },
+    { text: "Егору нужна помощь в усилении сигнала для работы с мотором.", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Егор:</b> Привет, студент! Меня зовут Егор, я инженер-электронщик.", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Егор:</b> Нам нужно усилить сигнал для работы с мощным мотором, чтобы он мог двигаться быстрее.", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Егор:</b> Можешь использовать транзистор как усилитель и протестировать его на маленьком моторе?", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Задача для студента:</b>", background: "url('statik/images/transistor.jpeg')" },
+    { text: "Использовать транзистор для управления небольшим мотором, симулируя усиление сигнала.", background: "url('statik/images/transistor.jpeg')" },
 ];
 
 //УЛЬТРОЗВУКОВОЙ ДАТЧИК
@@ -464,4 +464,3 @@ nextButton.addEventListener('click', updateDialogue);
 if (dialogueElement) {
     updateDialogue();
 }
-

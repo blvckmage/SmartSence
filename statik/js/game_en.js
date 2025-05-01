@@ -1,18 +1,18 @@
 // LED
 const Led = [
 
-    { text: "<b>Name:</b> Lisa", background: "url('statik/images/led_park1.jpg ')" },
-    { text: "<b>Profession:</b> Technician on duty", background: "url('statik/images/led_park1.jpg ')" },
-    { text: "Lisa is responsible for night lighting in the park, but recently the lanterns on the main alley stopped working.", background: "url('statik/images/led_park1.jpg ')" },
-    { text: "<b>Lisa:</b> Hello, student! I'm Lisa, a technician at this park.", background: "url('statik/images/led_park3.jpg ')" },
-    { text: "<b>Lisa:</b> We have a problem:", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Lisa:</b> Some of the lanterns on the main avenue are not lit, and part of the park remains in darkness.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Lisa:</b> It's uncomfortable for people to walk here at night.", background: "url('statik/images/led_park4.jpg')" },
-    { text: "<b>Lisa:</b> I need you to help me turn on the lights using an LED to simulate street lighting.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Lisa:</b> Plug it in and configure it to light up automatically when it gets dark.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "<b>Student's task:</b>", background: "url('statik/images/led_park2.jpg')" },
-    { text: "Create a circuit using an LED that will be activated at nightfall, simulating the operation of a street lamp.", background: "url('statik/images/led_park2.jpg')" },
-    { text: "I wish you success with your assignment.", background: "url('statik/images/led_park2.jpg')" },
+    { text: "<b>Name:</b> Lisa", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Profession:</b> Technician on duty", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "Lisa is responsible for night lighting in the park, but recently the lanterns on the main alley stopped working.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Lisa:</b> Hello, student! I'm Lisa, a technician at this park.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Lisa:</b> We have a problem:", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Lisa:</b> Some of the lanterns on the main avenue are not lit, and part of the park remains in darkness.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Lisa:</b> It's uncomfortable for people to walk here at night.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Lisa:</b> I need you to help me turn on the lights using an LED to simulate street lighting.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Lisa:</b> Plug it in and configure it to light up automatically when it gets dark.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "<b>Student's task:</b>", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "Create a circuit using an LED that will be activated at nightfall, simulating the operation of a street lamp.", background: "url('statik/images/svetodiod.jpeg')" },
+    { text: "I wish you success with your assignment.", background: "url('statik/images/svetodiod.jpeg')" },
 
 ];
 
@@ -198,14 +198,14 @@ const RFID552 = [
 //SERVO MOTOR
 const SERVO = [
 
-    { text: "<b>Name:</b> Nina", background: "url('statik/images/servo_back.jpg ')" },
-    { text: "<b>Profession:</b> Post office employee", background: "url('statik/images/servo_back.jpg ')" },
-    { text: "Nina wants to automate the raising of flags at the post office counter.", background: "url('statik/images/servo_back.jpg ')" },
-    { text: "<b>Nina:</b> Hello! I'm Nina, and I work at the post office. ", background: "url('statik/images/servo_back.jpg')" },
-    { text: "<b>Nina:</b> We want to make the flag rise automatically so that it rises a certain distance.", background: "url('statik/images/servo_back.jpg ')" },
-    { text: "<b>Nina:</b> Can you help me set up the servo motor for this?", background: "url('statik/images/servo_back.jpg ')" },
-    { text: "<b>Student's task:</b>", background: "url('statik/images/servo_back.jpg ')" },
-    { text: "Configure the servomotor so that it moves to the specified positions, simulating the raising of the flag.", background: "url('statik/images/servo_back.jpg ')" },
+    { text: "<b>Name:</b> Nina", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Profession:</b> Post office employee", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "Nina wants to automate the raising of flags at the post office counter.", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Nina:</b> Hello! I'm Nina, and I work at the post office. ", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Nina:</b> We want to make the flag rise automatically so that it rises a certain distance.", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Nina:</b> Can you help me set up the servo motor for this?", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "<b>Student's task:</b>", background: "url('statik/images/servodvig.jpeg')" },
+    { text: "Configure the servomotor so that it moves to the specified positions, simulating the raising of the flag.", background: "url('statik/images/servodvig.jpeg')" },
 
 ];
 
@@ -255,14 +255,14 @@ const TOCHBUTTON = [
 //TRANSISTOR
 const TRANSISTOR = [
 
-    { text: "<b>Name:</b> Egor", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "<b>Profession:</b> Electronics engineer", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "Egor needs help amplifying the signal to work with the motor.", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "<b>Egor:</b> Hello, student! My name is Egor, I'm an electronics engineer.", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "<b>Egor:</b> We need to amplify the signal to work with a powerful motor so that it can move faster.", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "<b>Egor:</b> Can you use a transistor as an amplifier and test it on a small motor?", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "<b>Student's task:</b>", background: "url('statik/images/trans_back.jpg ')" },
-    { text: "Use a transistor to control a small motor by simulating signal amplification.", background: "url('statik/images/trans_back.jpg ')" },
+    { text: "<b>Name:</b> Egor", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Profession:</b> Electronics engineer", background: "url('statik/images/transistor.jpeg')" },
+    { text: "Egor needs help amplifying the signal to work with the motor.", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Egor:</b> Hello, student! My name is Egor, I'm an electronics engineer.", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Egor:</b> We need to amplify the signal to work with a powerful motor so that it can move faster.", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Egor:</b> Can you use a transistor as an amplifier and test it on a small motor?", background: "url('statik/images/transistor.jpeg')" },
+    { text: "<b>Student's task:</b>", background: "url('statik/images/transistor.jpeg')" },
+    { text: "Use a transistor to control a small motor by simulating signal amplification.", background: "url('statik/images/transistor.jpeg')" },
 ];
 
 //ULTRASONIC SENSOR
